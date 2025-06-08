@@ -10,7 +10,7 @@ const NdisFundingHero = () => {
             How do I get NDIS funding?
           </h1>
           <p className="font-inter text-xs text-center text-gray-600 w-[85%] md:w-[70%] lg:w-[500px] lg:text-start xl:text-sm">
-            If you have a permanent disability that affects your capacity to take part in day-to-day activities, you may be eligible for NDIS funding.
+            If a permanent disability is impacting your ability to take part in daily activities, you may be eligible for NDIS funding, and we’re here to help you through the process.
           </p>
           <a href="#contact">
             <Button

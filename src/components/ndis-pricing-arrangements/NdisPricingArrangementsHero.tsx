@@ -10,9 +10,9 @@ const NdisPricingArrangementsHero = () => {
             NDIS Pricing Arrangements and Price Limits
           </h1>
           <p className="font-inter text-xs text-center text-gray-600 w-[85%] md:w-[70%] lg:w-[500px] lg:text-start xl:text-sm">
-            As an NDIS registered provider, Leora Healthcare follows the NDIS Pricing Arrangements and Price Limits set by the National Disability Insurance Agency (NDIA).
+            Ably Care follows the NDIS Pricing Arrangements and Price Limits established by the National Disability Insurance Agency (NDIA).
           </p>
-          <a href="#contact">
+          <a href="/contact">
             <Button
               variant={"default"}
               className="mt-5 bg-customAccent hover:bg-complementary text-white"

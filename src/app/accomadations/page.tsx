@@ -149,7 +149,7 @@ const Accomadations = () => {
               Find the Perfect Fit
             </p>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-10 rounded-2xl gap-10 mb-36">
+          <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3 mt-10 rounded-2xl gap-10 mb-36">
             {accommodationOptions.map((item, index) => (
               <div
                 key={index}

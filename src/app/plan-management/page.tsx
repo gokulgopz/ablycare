@@ -26,95 +26,74 @@ const PlanManagement = () => {
       </main>
       <div className="w-full p-4">
         <div className="py-6 md:py-16 container mx-auto px-4 max-w-6xl" id="learn-more">
-          <div className="mb-7 flex flex-col items-start justify-center lg:items-center mt-20 p-4">
+          <div className="mb-7 flex flex-col items-start justify-center lg:items-center  p-4">
             <ChalkTitle
-              title="Unlocking Choice & Control"
+              title="About our Plan Management"
               className="mt-10 md:w-2/3 lg:text-center"
               underlineColor="#f8ab39"
             />
             <p className="text-gray-700 max-w-3xl lg:mx-auto text-left lg:text-center font-inter text-sm mt-5">
-              Managing your NDIS plan shouldn’t be overwhelming.
-              <br className="hidden md:block" /> Our expert Plan Management
-              services provide
+              Managing your NDIS plan shouldn’t be overwhelming.               
             </p>
           </div>
-          <div className="w-full lg:w-[500px] mx-auto flex flex-col rounded-2xl overflow-hidden mt-6">
-            {[
-              {
-                title: "Freedom to Choose Providers",
-                subTitle: "Including those not registered with the NDIS.",
-              },
-              {
-                title: "Stress-Free Financial Administration",
-                subTitle: "We handle invoices, payments, and tracking.",
-              },
-              {
-                title: "Full Transparency & Compliance",
-                subTitle: "We ensure your funds are managed accurately.",
-              },
-            ].map((item, index) => (
-              <div
-                key={index}
-                className={`cursor-pointer flex gap-2 items-start w-full p-6 ${
-                  index % 2 === 0 ? "bg-customAccent/20" : "bg-complementary/20"
-                } hover:bg-customAccent transition-all duration-300 ease-in-out group`}
-              >
-                <CircleCheckBig className="text-green-500 w-5 h-5 mt-1" />
-                <div className="w-full flex flex-col items-start justify-center gap-1">
-                  <h1 className="font-poppins text-lg text-gray-800 group-hover:text-white transition-all duration-300 ease-in-out">
-                    {item.title}
-                  </h1>
-                  <p className="w-[90%] text-sm md:w-auto font-inter text-gray-600 group-hover:text-white transition-all duration-300 ease-in-out">
-                    {item.subTitle}
-                  </p>
-                </div>
-              </div>
-            ))}
+          <div className="w-full lg:w-[900px] mx-auto flex flex-col rounded-2xl overflow-hidden mt-6">
+            {/* The content you provided will go here */}
+            <div className="p-1 bg-gray-10 text-gray-700 font-inter text-base leading-relaxed text-center">
+              <p className="mb-4">
+                At Ably Care, our NDIS plan management is designed to support you every step of the way. We work closely with you to ensure your plan is managed with care, professionalism, and attention to detail.
+              </p>
+              <p className="mb-4">
+                From budgeting and managing your funds to liaising with service providers, we’re here to make the process as smooth and stress-free as possible. Our team is dedicated to helping you achieve your goals, providing the support you need to access the services that matter most to you.
+              </p>
+              <p>
+                With Ably Care, you can focus on what truly matters while we handle the rest.
+              </p>
+            </div>
           </div>
 
-          <div className="w-full flex flex-col items-start md:items-center justify-start lg:justify-center mt-24">
+          {/* <div className="w-full flex flex-col items-start md:items-center justify-start lg:justify-center mt-24">
             <ChalkTitle
-              title="How Our Plan Management Services Work"
+              title="Our services"
               className="mt-10"
               underlineColor="#f8ab39"
             />
 
             <p className="text-gray-700 max-w-3xl lg:mx-auto text-left lg:text-center font-inter text-sm mt-5">
-              Efficient & Transparent Financial Management
+              our NDIS plan management is designed to support you every step of the way
             </p>
           </div>
 
-          <div className="w-full mx-auto grid grid-cols-1 sm:grid-cols-3 gap-6 mt-10 p-4 sm:max-w-4xl">
+          <div className="w-full mx-auto grid grid-cols-1 sm:grid-cols-3 gap-6 mt-10 p-6 sm:max-w-4xl">
             {[
               {
-                title: "Daily Invoice Processing",
+                title: "Choice and Control",
                 subTitle:
-                  "Payments made within 5 working days for seamless service delivery.",
+                  "Our mission is to create an inclusive Australia where everyone has the opportunity to reach their full potential. ",
               },
               {
-                title: "Dedicated Fund Reserves",
+                title: "Transparency",
                 subTitle:
-                  "Allocated funds are safeguarded and used as per your instructions.",
+                  "we ensure full transparency keeping you informed, in control, and confident in every decision.",
               },
               {
-                title: "Zero Out-of-Pocket Costs",
+                title: "Budget Monitoring",
                 subTitle:
-                  "Our services are fully funded by the NDIS, with no extra expenses for you.",
+                  "Your budget balances are automatically updated once invoices are paid, so you will always know how much you have spent and how much is left in your budget.",
               },
             ].map((item, index) => (
               <Card
                 className="rounded-xl overflow-hidden bg-gray-50"
                 key={index}
               >
-                <CardHeader className="pl-0">
+                <CardHeader className="p-0">
                   <div className="relative bg-customAccent rounded-xl rounded-l-none p-4 flex flex-col items-start justify-center">
                     <CardTitle className="text-white font-poppins">
                       {item.title}
                     </CardTitle>
                   </div>
                 </CardHeader>
-                <CardContent>
-                  <CardDescription className="font-inter">
+                <CardContent className="p-6 pt-4">
+                  <CardDescription className="font-inter  text-gray-700 font-normal text-base leading-relaxed">
                     <p className="mb-2 font-poppins text-gray-700 font-semibold text-sm">
                       {item.subTitle}
                     </p>
@@ -122,34 +101,34 @@ const PlanManagement = () => {
                 </CardContent>
               </Card>
             ))}
-          </div>
+          </div> */}
 
           <div className="mb-7 flex flex-col items-start justify-center lg:items-center mt-24">
             <ChalkTitle
-              title="Real-Time Insights with Our Mobile App"
+              title="Our Services"
               className="mt-10 lg:w-[55%] text-start lg:text-center"
               underlineColor="#f8ab39"
             />
             <p className="text-gray-700 max-w-3xl lg:mx-auto text-left lg:text-center font-inter text-sm mt-5">
-              Our intuitive budget tracking app puts control in your hands
+              our NDIS plan management is designed to support you every step of the way
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-10 rounded-2xl gap-10 mb-36">
             {[
               {
                 image: "/icons/fund-monitoring-icon.png",
-                title: "Instant Fund Monitoring",
-                description: "Track your remaining balance at any time.",
+                title: "Choice and Control",
+                description: " Our mission is to create an inclusive Australia where everyone has the opportunity to reach their full potential. ",
               },
               {
                 image: "/icons/plan_management.png",
-                title: "Invoice Approval in One Tap",
-                description: "Approve or review payments instantly.",
+                title: "Transparency",
+                description: "we ensure full transparency—keeping you informed, in control, and confident in every decision. ",
               },
               {
                 image: "/icons/ndis-pricing-elegibility.jpg.png",
-                title: "Full Financial Transparency",
-                description: "See where and how your funds are used.",
+                title: "Budget Monitoring",
+                description: "Your budget balances are automatically updated once invoices are paid, so you will always know how much you have spent and how much is left in your budget.",
               },
             ].map((item, index) => (
               <div
@@ -181,7 +160,7 @@ const PlanManagement = () => {
             ))}
           </div>
 
-          <div className="w-full flex flex-col items-start md:items-center justify-start lg:justify-center mt-24">
+          {/* <div className="w-full flex flex-col items-start md:items-center justify-start lg:justify-center mt-24">
             <ChalkTitle
               title="Expert Guidance & Personalized Support"
               className="mt-10"
@@ -229,54 +208,159 @@ const PlanManagement = () => {
                 </CardContent>
               </Card>
             ))}
-          </div>
+          </div> */}
 
+     
           <div className="mb-7 flex flex-col items-start justify-center lg:items-center mt-20 p-4">
-            <ChalkTitle
-              title="Beyond Financials"
-              className="mt-10 md:w-2/3 lg:text-center"
-              underlineColor="#f8ab39"
-            />
-            <p className="text-gray-700 max-w-3xl lg:mx-auto text-left lg:text-center font-inter text-sm mt-5">
-              Helping You Build Capacity We don’t just manage your
-              <br className="hidden md:block" />
-              NDIS plan we empower you to make the most of it
-            </p>
-          </div>
-          <div className="w-full lg:w-[500px] mx-auto flex flex-col rounded-2xl overflow-hidden mt-6">
-            {[
-              {
-                title: "Budgeting & Financial Planning",
-                subTitle: "Ensuring effective fund utilization.",
-              },
-              {
-                title: "Educational Resources",
-                subTitle: "Enhancing your understanding of plan management.",
-              },
-              {
-                title: " Provider Selection Guidance",
-                subTitle:
-                  "Helping you choose the best services for your needs.",
-              },
-            ].map((item, index) => (
-              <div
-                key={index}
-                className={`cursor-pointer flex gap-2 items-start w-full p-6 ${
-                  index % 2 === 0 ? "bg-customAccent/20" : "bg-complementary/20"
-                } hover:bg-customAccent transition-all duration-300 ease-in-out group`}
-              >
-                <CircleCheckBig className="text-green-500 w-5 h-5 mt-1" />
-                <div className="w-full flex flex-col items-start justify-center gap-1">
-                  <h1 className="font-poppins text-lg text-gray-800 group-hover:text-white transition-all duration-300 ease-in-out">
-                    {item.title}
-                  </h1>
-                  <p className="w-[90%] text-sm md:w-auto font-inter text-gray-600 group-hover:text-white transition-all duration-300 ease-in-out">
-                    {item.subTitle}
-                  </p>
+                {/* Heading remains centered above the new two-column layout */}
+                <ChalkTitle
+                  title="Unlocking choice and Control"
+                  className="mt-10 md:w-2/3 lg:text-center"
+                  underlineColor="#f8ab39"
+                />
+                <p className="text-gray-700 max-w-3xl lg:mx-auto text-left lg:text-center font-inter text-sm mt-5">
+                  Helping You Build Capacity We don’t just manage your
+                  <br className="hidden md:block" />
+                  NDIS plan we empower you to make the most of it
+                </p>
+              </div>
+
+              {/* New flex container for the image and content side-by-side */}
+              <div className="flex flex-col md:flex-row items-start justify-center gap-8 px-4 pb-16 lg:max-w-6xl mx-auto">
+                {/* Left Column: Image */}
+                <div className="relative w-full md:w-1/2 h-[300px] md:h-[400px] rounded-xl overflow-hidden shadow-lg">
+                  <Image
+                    src="/images/plan/1.jpeg" // IMPORTANT: Replace with your actual image path
+                    alt="Empowering choice and control"
+                    fill
+                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 500px"
+                    className="object-cover object-center"
+                  />
+                  {/* Optional: Add a subtle overlay for visual depth if needed */}
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"></div>
+                </div>
+
+                {/* Right Column: Existing Text and List */}
+                <div className="w-full md:w-1/2 flex flex-col items-start gap-6">
+                  {/* This is the paragraph content you previously modified */}
+                 
+
+                  {/* The list of items, now aligned to the left */}
+                  <div className="w-full flex flex-col rounded-2xl overflow-hidden">
+                    {[
+                      {
+                        title: "Freedom to Choose Provider",
+                        subTitle: "You have the freedom to choose any provider that meets your needs and budget, without any restrictions.",
+                      },
+                      {
+                        title: "Stress-Free Financial Administration ",
+                        subTitle: "We handle invoices, payments, and tracking",
+                      },
+                      {
+                        title: "Full Transparency & Compliance",
+                        subTitle:
+                          "We ensure your funds are managed accurately.",
+                      },
+                    ].map((item, index) => (
+                      <div
+                        key={index}
+                        className={`cursor-pointer flex gap-2 items-start w-full p-6 ${
+                          index % 2 === 0 ? "bg-customAccent/20" : "bg-complementary/20"
+                        } hover:bg-customAccent transition-all duration-300 ease-in-out group`}
+                      >
+                        <CircleCheckBig className="text-green-500 w-5 h-5 mt-1" />
+                        <div className="w-full flex flex-col items-start justify-center gap-1">
+                          <h1 className="font-poppins text-lg text-gray-800 group-hover:text-white transition-all duration-300 ease-in-out">
+                            {item.title}
+                          </h1>
+                          <p className="w-[90%] text-sm md:w-auto font-inter text-gray-600 group-hover:text-white transition-all duration-300 ease-in-out">
+                            {item.subTitle}
+                          </p>
+                        </div>
+                      </div>
+                    ))}
+                  </div>
                 </div>
               </div>
-            ))}
-          </div>
+
+
+
+              {/* {nexrt left} */}
+
+
+              <div className="mb-7 flex flex-col items-start justify-center lg:items-center mt-20 p-4">
+                  {/* Updated Heading for this section, remains centered above the two-column layout */}
+                  <ChalkTitle
+                    title="Beyond Financials"
+                    className="mt-10 md:w-2/3 lg:text-center"
+                    underlineColor="#f8ab39"
+                  />
+                  <p className="text-gray-700 max-w-3xl lg:mx-auto text-left lg:text-center font-inter text-sm mt-5">
+                    Helping You Build Capacity. We don’t just manage your
+                    <br className="hidden md:block" />
+                    NDIS plan; we empower you to make the most of it.
+                  </p>
+                </div>
+
+                {/* New flex container for the content and image side-by-side */}
+                {/* Key change: `md:flex-row-reverse` to put the image on the right on larger screens */}
+                <div className="flex flex-col md:flex-row-reverse items-start justify-center gap-8 px-4 pb-16 lg:max-w-6xl mx-auto">
+
+                  {/* Right Column: Image */}
+                  <div className="relative w-full md:w-1/2 h-[300px] md:h-[400px] rounded-xl overflow-hidden shadow-lg">
+                    <Image
+                      src="/images/plan/2.jpeg" // IMPORTANT: Replace with your actual image path for this section
+                      alt="Beyond Financials"
+                      fill
+                      sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 500px"
+                      className="object-cover object-center"
+                    />
+                    {/* Optional: Add a subtle overlay for visual depth if needed */}
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"></div>
+                  </div>
+
+                  {/* Left Column: Placeholder Text and List */}
+                  <div className="w-full md:w-1/2 flex flex-col items-start gap-6">
+                    {/* Placeholder for your new content */}
+                   
+
+                    {/* The list of items, now aligned to the left and accompanying the placeholder text */}
+                    <div className="w-full flex flex-col rounded-2xl overflow-hidden">
+                      {[
+                        {
+                          title: "Budgeting & Financial Planning",
+                          subTitle: "Ensuring effective fund utilization.",
+                        },
+                        {
+                          title: "Educational Resources",
+                          subTitle: "Enhancing your understanding of plan management.",
+                        },
+                        {
+                          title: "Provider Selection Guidance",
+                          subTitle:
+                            "Helping you choose the best services for your needs.",
+                        },
+                      ].map((item, index) => (
+                        <div
+                          key={index}
+                          className={`cursor-pointer flex gap-2 items-start w-full p-6 ${
+                            index % 2 === 0 ? "bg-customAccent/20" : "bg-complementary/20"
+                          } hover:bg-customAccent transition-all duration-300 ease-in-out group`}
+                        >
+                          <CircleCheckBig className="text-green-500 w-5 h-5 mt-1" />
+                          <div className="w-full flex flex-col items-start justify-center gap-1">
+                            <h1 className="font-poppins text-lg text-gray-800 group-hover:text-white transition-all duration-300 ease-in-out">
+                              {item.title}
+                            </h1>
+                            <p className="w-[90%] text-sm md:w-auto font-inter text-gray-600 group-hover:text-white transition-all duration-300 ease-in-out">
+                              {item.subTitle}
+                            </p>
+                          </div>
+                        </div>
+                      ))}
+                    </div>
+                  </div>
+                </div>
 
           <div className="relative w-full h-96 flex justify-center items-center flex-col mt-24 overflow-hidden rounded-2xl">
             <div className="flex flex-col items-center justify-start w-full p-4 relative z-10">

@@ -65,6 +65,7 @@ const NdisPricingArrangements = () => {
                 href="https://www.ndis.gov.au/providers/pricing-arrangements"
                 target="_blank"
                 rel="noopener noreferrer"
+                className="inline-block  bg-gray-200 text-black rounded-xl"
               >
                 <Button className="rounded-xl bg-complementary text-white hover:bg-customAccent">
                   Find out more

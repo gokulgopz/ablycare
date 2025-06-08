@@ -31,8 +31,8 @@ const NdisFunding = () => {
           </div>
           <div className="w-full relative overflow-hidden rounded-xl h-52 md:h-64 lg:h-96 lg:w-1/2">
             <Image
-              src="/images/mission-stock.jpg"
-              alt="Ably Care Persona"
+              src="/images/ndisprice/1.jpeg"
+              alt="Ably Care  "
               fill
               sizes="100%"
               className="object-cover object-center w-full h-full"
@@ -65,11 +65,11 @@ const NdisFunding = () => {
           </div>
           <div className="w-full relative overflow-hidden rounded-xl h-52 md:h-64 lg:h-96 lg:w-1/2">
             <Image
-              src="/images/mission-stock.jpg"
+              src="/images/ndisprice/2.jpeg"
               alt="Ably Care Persona"
               fill
-              sizes="100%"
-              className="object-cover object-center w-full h-full"
+              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 500px"
+              className="object-cover object-center w-full h-5"
             />
           </div>
         </div>
@@ -98,10 +98,10 @@ const NdisFunding = () => {
           </div>
           <div className="w-full relative overflow-hidden rounded-xl h-52 md:h-64 lg:h-96 lg:w-1/2">
             <Image
-              src="/images/mission-stock.jpg"
-              alt="Ably Care Persona"
+              src="/images/ndisprice/3.jpeg"
+              alt="Ably Care "
               fill
-              sizes="100%"
+              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 500px"
               className="object-cover object-center w-full h-full"
             />
           </div>

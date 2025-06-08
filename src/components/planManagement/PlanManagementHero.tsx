@@ -23,7 +23,7 @@ const PlanManagementHero = () => {
                 <p className="font-inter text-xs text-center text-gray-600 w-[85%] md:w-[70%] lg:w-[500px] lg:text-start xl:text-sm">
                     Maximize Your NDIS Funding with Expert Financial Management & Stress-Free Administration.
                 </p>
-                <a href="#learn-more">
+                <a href="/contact">
                     <Button variant={"default"} className="mt-5 bg-customAccent hover:bg-complementary text-white">
                         Learn more
                     </Button>
