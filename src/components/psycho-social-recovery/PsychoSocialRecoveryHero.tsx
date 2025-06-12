@@ -10,11 +10,9 @@ const PsychoSocialRecoveryHero = () => {
             Psychosocial Recovery Coaching
           </h1>
           <p className="font-inter text-xs text-center text-gray-600 w-[85%] md:w-[70%] lg:w-[500px] lg:text-start xl:text-sm">
-            Empowering individuals with psychosocial disabilities to lead
-            purposeful, connected, and independent lives through person-centered
-            recovery coaching.
+            Our Psychosocial Recovery Coaching service provides personalized support for individuals with mental health challenges, helping them build resilience, develop life skills, and achieve their goals
           </p>
-          <a href="#learn-more">
+          <a href="/contact">
             <Button
               variant={"default"}
               className="mt-5 bg-customAccent hover:bg-complementary text-white"

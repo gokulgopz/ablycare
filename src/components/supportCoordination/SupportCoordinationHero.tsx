@@ -17,12 +17,12 @@ const SupportCoordinationHero = () => {
             </div>
             <div className="w-full flex lg:p-4  flex-col justify-center items-center gap-2 lg:justify-center lg:items-start lg:w-[50%]">
                 <h1 className="font-poppins text-4xl text-center font-semibold lg:text-start lg:text-4xl xl:text-5xl">
-                    Navigating Your NDIS Journey with Confidence & Clarity
+                   Support Coordination
                 </h1>
                 <p className="font-inter text-xs text-center text-gray-600 w-[85%] md:w-[70%] lg:w-[500px] lg:text-start xl:text-sm">
-                    Seamless Support Coordination to Help You Maximize Your NDIS Plan & Achieve Independence.
+                    Ably Care will help you make the most of your NDIS plan. We act as a connector to available support services in the community.
                 </p>
-                <a href="#learn-more">
+                <a href="/contact">
                     <Button variant={"default"} className="mt-5 bg-customAccent hover:bg-complementary text-white">
                         Learn more
                     </Button>

@@ -2,32 +2,32 @@ export const psychoSocialTilesData = [
   {
     image: "/icons/ndis-navigation.png",
     title: "NDIS Navigation",
-    subTitle: "Helping participants understand and engage with their NDIS plan",
+    subTitle: "We’ll guide you through NDIS navigation, offering psychosocial recovery coaching to help you manage challenges and reach your goals.  ",
   },
   {
     image: "/icons/informal-support.png",
-    title: "Informal Supports",
-    subTitle: "Building and strengthening informal support networks",
+    title: "Forman & Informal Supports",
+    subTitle: "Connecting participants to services that match their specific requirements. ",
   },
   {
     image: "/icons/capacity-building.png",
-    title: "Capacity Building",
-    subTitle: "Enhancing decision-making, self-advocacy, and independence",
+    title: "Building Life skills",
+    subTitle: "Outlining goals, strengths, and areas for growth, tailored to each person’s needs.",
   },
   {
     image: "/icons/collabaration-new.png",
-    title: "Collaboration",
-    subTitle: "Working closely with Support Coordinators and other providers",
+    title: "Personal recovery plan",
+    subTitle: "Outlining goals, strengths, and areas for growth, tailored to each person’s needs.",
   },
   {
     image: "/icons/doc-reports.png",
-    title: "Documentation & Reports",
-    subTitle: "Submitting reports for plan reviews and demonstrating impact",
+    title: "Working with Families and Carers",
+    subTitle: " Ensuring a supportive environment by involving loved ones in the recovery process.",
   },
   {
     image: "/icons/conflict-management.png",
-    title: "Conflict Management",
-    subTitle: "Monitoring and resolving conflicts of interest transparently",
+    title: "Documentation & Report",
+    subTitle: "We’ll help you with documentation and reports, ensuring everything is organized so you can access the support you need. ",
   },
 ];
 
@@ -35,18 +35,18 @@ export const psychoSocialTilesData = [
 export const psychoSocialTilesData2 = [
     {
         title : "",
-        description : "Raising expectations and prioritizing your values and strengths"
+        description : "Focusing on your strengths and values, while raising expectations for what you can achieve."
     },
     {
         title : "",
-        description : "Advocating for your human rights"
+        description : "Advocating for your rights, ensuring your voice is heard and respected."
     },
     {
         title : "",
-        description : "Reporting progress and justifying support for future plans"
+        description : "Regularly reporting progress and justifying support to ensure your future plans reflect your evolving needs."
     },
     {
         title : "",
-        description : "Providing consistent, compassionate support throughout your journey"
+        description : "Offering consistent, compassionate support every step of the way, empowering you to thrive. "
     },
 ]

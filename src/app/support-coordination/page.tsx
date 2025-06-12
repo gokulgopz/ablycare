@@ -29,22 +29,24 @@ const SupportCoordination = () => {
         <div className="py-6 md:py-16 container mx-auto px-4 max-w-6xl">
           <div className="mb-7 flex flex-col items-start justify-center lg:items-center">
             <ChalkTitle
-              title="What is Support Coordination?"
+              title=" About our Support Coordination"
               className="mt-10"
               underlineColor="#f8ab39"
             />
             <p className="text-gray-700 max-w-3xl lg:mx-auto text-left lg:text-center font-inter text-sm mt-5">
-              Support Coordination helps NDIS participants navigate, organize,
-              and optimize their support services, ensuring a seamless
-              experience tailored to their unique needs. Our expert team assists
-              you in making the most of your NDIS plan while fostering
-              independence, confidence, and well-being.
+              At Ably Care, we understand how important it is to navigate the NDIS and make the most of your plan. 
+              We work closely with you to help plan and coordinate your supports, ensuring you find the right local services 
+              that meet your needs and arrange visits at times that suit you. We’re here to support you in establishing and maintaining your services, 
+              guiding you through the costs and ensuring everything is set up just the way you need. If you ever need to find new services or change providers, 
+              we’ll be with you every step of the way. We also assist with making adjustments to your plan and help prepare for reassessments, ensuring that your 
+              support continues to meet your goals and needs. 3.Section: Icons and text – Our Services.
+
             </p>
           </div>
 
           <div className="mb-7 flex flex-col items-start justify-center lg:items-center mt-24">
             <ChalkTitle
-              title="Comprehensive Support Coordination Services"
+              title="Support Coordination Services"
               className="mt-10 lg:w-[65%] text-start lg:text-center"
               underlineColor="#f8ab39"
             />
@@ -84,7 +86,7 @@ const SupportCoordination = () => {
             ))}
           </div>
 
-          <div className="mb-7 flex flex-col items-start justify-center lg:items-center mt-28">
+          {/* <div className="mb-7 flex flex-col items-start justify-center lg:items-center mt-28">
             <ChalkTitle
               title="Empowering You to Take Control"
               className="mt-10 md:w-2/3 lg:text-center"
@@ -114,65 +116,123 @@ const SupportCoordination = () => {
                 </p>
               </div>
             ))}
-          </div>
+          </div> */}
 
-          <div className="w-full flex items-center justify-start lg:justify-center mt-24">
+
+          {/* the new section goes here */}
+          <div className="mb-7 flex flex-col items-start justify-center lg:items-center mt-28 p-4">
+            {/* Heading remains centered above the two-column layout */}
             <ChalkTitle
-              title="Tailored Support Coordination Services"
-              className="mt-10"
+              title="Empowering You to Take Control"
+              className="mt-10 md:w-2/3 lg:text-center"
               underlineColor="#f8ab39"
             />
+            <p className="text-gray-700 max-w-3xl lg:mx-auto text-left lg:text-center font-inter text-sm mt-5">
+              Our Support Coordinators are committed to helping you
+            </p>
           </div>
 
-          <div className="w-full md:w-[600px] mx-auto grid grid-cols-1 sm:grid-cols-2 gap-6 mt-10">
-            {[
-                {
-                    title : "Support Coordination",
-                    subTitle : "Expert Navigation & Problem Solving",
-                    points : [
-                        " Ideal for those with multiple providers or complex needs.",
-                        "Helps resolve barriers to accessing services.",
-                        "Ongoing monitoring & evaluation to ensure effectiveness.",
-                        "Crisis resolution support to build stability and resilience."
-                    ]
-                },
-                {
-                    title : "Specialist Support Coordination",
-                    subTitle : "High-Risk & Complex Needs Support",
-                    points : [
-                        "A time-limited service for those facing significant challenges.",
-                        "Provides specialized intervention for individuals at high risk.",
-                        "Works to create a stable, long-term support environment."
-                    ]
-                }
-            ].map((item, index) => (
-              <Card
-                className="rounded-xl overflow-hidden bg-gray-50"
-                key={index}
-              >
-                <CardHeader className="pl-0">
-                  <div className="relative bg-customAccent rounded-xl rounded-l-none p-4 flex flex-col items-start justify-center">
-                    <CardTitle className="text-white font-poppins">
-                      {item.title} .
-                    </CardTitle>
-                  </div>
-                </CardHeader>
-                <CardContent>
-                  <CardDescription className="font-inter">
-                    <h1 className="mb-2 font-poppins text-gray-700 font-semibold text-lg">
-                      {item.subTitle}
-                    </h1>
-                    <ul>
-                      {item.points.map((point, i) => (
-                        <li key={i} className="text-gray-700 list-disc">
-                          {point}
-                        </li>
-                      ))}
-                    </ul>
-                  </CardDescription>
-                </CardContent>
-              </Card>
-            ))}
+          {/* New flex container for the left content and right image */}
+          {/* Key: `md:flex-row` ensures content on left, image on right for larger screens */}
+          <div className="flex flex-col md:flex-row items-start justify-center gap-8 px-4 pb-16 lg:max-w-6xl mx-auto">
+
+            {/* Left Column: Introductory Paragraph and List of Items */}
+            <div className="w-full md:w-1/2 flex flex-col items-start gap-6">
+              {/* Existing paragraph content */}
+              <div className="p-6 bg-gray-50 text-gray-700 font-inter text-base leading-relaxed rounded-xl shadow-sm">
+                 <ul className="space-y-4 text-lg text-gray-700">
+            {/* Each list item with a leading bullet point */}
+            <li className="flex items-start">
+              <span className="text-blue-500 font-bold mr-2 text-xl">&bull;</span>
+              Make Informed Decisions about your services and future.
+            </li>
+            <li className="flex items-start">
+              <span className="text-blue-500 font-bold mr-2 text-xl">&bull;</span>
+              Connect with Local Resources for additional support.
+            </li>
+            <li className="flex items-start">
+              <span className="text-blue-500 font-bold mr-2 text-xl">&bull;</span>
+              Maximize the Value of Your NDIS Plan to access the best services.
+            </li>
+            <li className="flex items-start">
+              <span className="text-blue-500 font-bold mr-2 text-xl">&bull;</span>
+              Build Meaningful Social Connections to foster a sense of belonging.
+            </li>
+            <li className="flex items-start">
+              <span className="text-blue-500 font-bold mr-2 text-xl">&bull;</span>
+              Develop Confidence & Independence in managing daily life.
+            </li>
+          </ul>
+              </div>
+
+              {/* The list of items, now aligned to the left */}
+             
+            </div>
+
+            {/* Right Column: Image */}
+            <div className="relative w-full md:w-1/2 h-[300px] md:h-[400px] rounded-xl overflow-hidden shadow-lg">
+              <Image
+                src="/support/1.jpeg" // IMPORTANT: Replace with your actual image path for this section
+                alt="Empowering control"
+                fill
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 500px"
+                className="object-cover object-center"
+              />
+              {/* Optional: Add a subtle overlay for visual depth if needed */}
+              <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"></div>
+            </div>
+          </div>
+          
+
+
+          {/* the newer section will be here */}
+
+
+          <div className="mb-7 flex flex-col items-start justify-center lg:items-center mt-28 p-4">
+            {/* Heading remains centered above the two-column layout */}
+            <ChalkTitle
+              title="Empowering You to Take Control"
+              className="mt-10 md:w-2/3 lg:text-center"
+              underlineColor="#f8ab39"
+            />
+            <p className="text-gray-700 max-w-3xl lg:mx-auto text-left lg:text-center font-inter text-sm mt-5">
+              Our Support Coordinators are committed to helping you
+            </p>
+          </div>
+
+          {/* New flex container for the left image and right content */}
+          {/* Key: `md:flex-row` will place the first child (image) on the left */}
+          <div className="flex flex-col md:flex-row items-start justify-center gap-8 px-4 pb-16 lg:max-w-6xl mx-auto">
+
+            {/* Left Column: Image */}
+            <div className="relative w-full md:w-1/2 h-[300px] md:h-[400px] rounded-xl overflow-hidden shadow-lg">
+              <Image
+                src="/support/3.jpeg" // IMPORTANT: Replace with your actual image path for this section
+                alt="Empowering control"
+                fill
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 500px"
+                className="object-cover object-center"
+              />
+              {/* Optional: Add a subtle overlay for visual depth if needed */}
+              <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"></div>
+            </div>
+
+            {/* Right Column: Introductory Paragraph and List of Items */}
+            <div className="w-full md:w-1/2 flex flex-col items-start gap-6">
+              {/* Existing paragraph content */}
+              <div className="p-6 bg-gray-50 text-gray-700 font-inter text-base leading-relaxed rounded-xl shadow-sm">
+                <p className="mb-4">
+                 At Ably Care, we're here to guide you through the NDIS process with confidence. 
+                 We’ll help you understand eligibility and documentation, ensuring you access the right 
+                 support services for your needs. You're never alone –we’re with you every step of the way.
+
+                </p>
+                
+              </div>
+
+              {/* The list of items, now aligned to the left */}
+              
+            </div>
           </div>
 
           <div className="relative w-full h-96 flex justify-center items-center flex-col mt-24 overflow-hidden rounded-2xl">
