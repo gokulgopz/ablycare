@@ -1,6 +1,6 @@
 export const accommodationOptions = [
   {
-    image: "/icons/short-house.png",
+    image: "/icons/accom/1.png",
     title: "Supported Independent Living",
     points: [
       "Ideal for temporary housing needs with full support",
@@ -8,7 +8,7 @@ export const accommodationOptions = [
     ],
   },
   {
-    image: "/icons/home-individuals.png",
+    image: "/icons/accom/2.png",
     title: "Respite Accommodation",
     points: [
       "Provides carers a much-needed break",
@@ -16,7 +16,7 @@ export const accommodationOptions = [
     ],
   },
   {
-    image: "/icons/living-homes.png",
+    image: "/icons/accom/3.png",
     title: "Short and medium term accommodation",
     points: [
       "Assistance with daily tasks such as cooking, cleaning, and personal care",
@@ -24,7 +24,7 @@ export const accommodationOptions = [
     ],
   },
   {
-    image: "/icons/living-homes.png",
+    image: "/icons/accom/4.png",
     title: "Respite",
     points: [
       "A shared living environment with like-minded individuals",

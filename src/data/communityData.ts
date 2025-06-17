@@ -1,13 +1,5 @@
 export const communityData = [
-    {
-        image : "/icons/clinic-icon.png",
-        title : "Expert Clinical Support",
-        points : [
-            "Registered Nurses & Support Workers provide care at home",
-            "Medication management, wound care, & ongoing health monitoring",
-            "Seamless collaboration with your healthcare providers"
-        ]
-    },
+    
     {
         image : "/icons/mentel-health-new.png",
         title : "Mental Health & Well-being",
@@ -26,7 +18,7 @@ export const communityData = [
         ]
     },
     {
-        image : "/icons/nav.png",
+        image : "/icons/homendcom/personalcare.png",
         title : "Domestic Assistance",
         points : [
             "Respectful help with household chores & organization",
@@ -34,7 +26,7 @@ export const communityData = [
         ]
     },
     {
-        image : "/icons/home_and_community.jpg.png",
+        image : "/icons/homendcom/social.png",
         title : "Social & Community Access",
         points : [
             "Helping you engage in recreation, work, and study opportunities",
@@ -58,7 +50,7 @@ export const communityData = [
         ]
     },
     {
-        image : "/icons/independant.png",
+        image : "/icons/homendcom/domestic.png ",
         title : "Personal Care with Dignity",
         points : [
             "Respectful support for daily living activities & hygiene",

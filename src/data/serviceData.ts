@@ -1,30 +1,30 @@
 export const servicesData = [
   {
-    image: "/icons/comfort-home.png",
+    image: "/icons/icon/home and community.png",
     title: "Home & Community care",
     description:
       "Ably Care provides compassionate support, including tailored high care and specialist services. ",
   },
   {
-    image: "/icons/independant.png",
+    image: "/icons/icon/accomodation.png",
     title: "Accomodation",
     description:
       "Ably Care offers beautifully appointed accommodations in Sydney and Canberra,creating a warm, supportive community where everyone feels a sense of belonging",
   },
   {
-    image: "/icons/nav.png",
+    image: "/icons/icon/planmanagement.png",
     title: "Plan management",
     description:
       "Ably Care’s Plan Management simplifies your journey, ensuring seamless support and financial peace of mind.",
     ndisLogo: "/icons/ndis-logo.png",
   },
   {
-    image: "/icons/support_coordination.jpg.png",
+    image: "/icons/icon/supporthome.png",
     title: "Support Coordination",
     description: " Empowering your journey, Ably Care’s NDIS Support Coordinators turn your goals into achievable realities.",
   },
   {
-    image: "/icons/psycho_social_recovery.webp",
+    image: "/icons/icon/psych.png",
     title: "Psychosocial Recovery Coaching",
     description: " Supporting your path to healing, Ably Care’s Psycho-Social Recovery Coaching fosters resilience and well-being.",
   }, 
@@ -33,32 +33,32 @@ export const servicesData = [
 
 export const ourServicesData = [
   {
-    image: "/icons/home_and_community.jpg.png",
+    image: "/icons/icon/home and community.png",
     title: "Home & Community Care",
     description:
       "Compassionate Home & Community Care, designed tof their own homes.",
     link: "/community",
   },
   {
-    image: "/icons/comfort-home.png",
+    image: "/icons/icon/accomodation.png",
     title: "Accomadations",
     description: "Beautifully appointed Supported Independent Living",
     link: "/accomadations",
   },
   {
-    image: "/icons/support_coordination.jpg.png",
+    image: "/icons/icon/supporthome.png",
     title: "Support Coordination",
     description: "Support Coordination, simplifying the NDIS journey .",
     link: "/support-coordination",
   },
   {
-    image: "/icons/plan_management.png",
+    image: "/icons/icon/planmanagement.png",
     title: "Plan Management",
     description: "Expert Plan Management, simplifying the NDIS journey .",
     link: "/plan-management",
   },
   {
-    image: "/icons/psycho_social_recovery.webp",
+    image: "/icons/icon/psych.png",
     title: "Psycho-Social Recovery",
     description: "Psycho-Social Recovery Coaching, empowering individuals",
     link: "/psycho-social-recovery",

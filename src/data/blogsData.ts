@@ -4,7 +4,7 @@ export const blogsData = [
       title: "Care Notes: A Key to Quality Care",
       date: "12 Apr 2025",
       summary: "Progress notes are essential in NDIS service delivery, serving as a critical tool for documenting care, ensuring compliance, and enhancing participant outcomes. This article explores their significance, tips for writing clear notes, and how Ably Care uses them to improve service delivery.",
-      heroImage: "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=600&h=300&fit=crop",
+      heroImage: "/images/blog/blog1.jpg",
       contentImages: [
         {
           id: "understanding-progress-notes",
